@@ -1,0 +1,28 @@
+@charset"UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div#conteudo{
+    font-family: Segoe UI, sans-serif;
+    color: rgba(10, 15, 20, 0.9);
+    font-size: 14pt;
+    border: none;
+    height: 1500px; /* mudar para auto, para aumentar dinamicamnete */
+    margin: auto 180px 0 180px; 
+    box-shadow: 0px 1px 5px rgba(00,00,00,0.8);
+    padding: 0px;
+    background-color: #efefef;
+}
+
+.titulo {
+    background-color: #dcdcdc;
+    font-family: Segoe Print, sans-serif;
+    text-shadow: 0 0 2px rgba(30, 30, 30, 0.8);
+    text-align: center;
+    margin: 4px 0 0 0;
+    box-shadow: 0 0 10px #cccccc;
+    letter-spacing: 1px;
+}
