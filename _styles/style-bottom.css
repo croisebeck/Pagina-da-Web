@@ -1,1 +1,81 @@
 @charset"UTF-8";
+
+footer#rodape {
+    /*width: auto;*/
+    font-size: 11px;
+    height: 150px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    text-align: center;
+    background-color: rgba(30,32,34, 0.85);
+    color: white;
+    font-family: cursive;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(10, 10, 10, 1);
+}
+
+footer#rodape h1 {
+
+    margin-left: 30px
+}
+
+
+
+footer#rodape a {
+    color: #000;
+    font-size: 12pt;
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #202020;
+    
+    
+}
+
+footer#rodape li {
+    list-style: none;
+    text-align: center;
+    
+}
+
+div.Esquerda {
+    height 160px;
+    width: 33%;
+    float: left;
+    margin-left: 0;
+    margin-bottom: 0;
+    /*overflow: hidden;*/
+    
+}
+
+div.Esquerda a span {   /**so manter o padrao pros icones 24px**/
+    position: absolute;
+    margin: 0 0 0 5px;
+}
+
+
+
+
+
+div.Centro {
+    float: left;
+    width: 33%;
+    height: 150px;
+}
+
+div.Centro p {
+    font-family: Calibri, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    color: rgba(220, 225, 230, 0.8);
+    text-shadow: 0 0 1px #000;
+    margin-left: 35px;  
+}
+
+
+div.Direita {
+    float: right;
+    width: 33%;
+    margin-right: 0;
+    height: 150px;
+}
